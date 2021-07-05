@@ -1,4 +1,16 @@
 import amazonLogo from './assets/amazonLogo.png';
+import img1 from './assets/img1.jpg';
+import img2 from './assets/img2.jpg';
+import img3 from './assets/img3.jpg';
+import img4 from './assets/img4.jpg';
+import img5 from './assets/img5.jpg';
+import img6 from './assets/img6.jpg';
+import computer from './assets/computer.jpg';
+import gift from './assets/gift.jpg';
+import ship from './assets/ship.jpg';
+import occulus from './assets/occulus.jpg';
+import basics from './assets/basics.jpg';
+import ideal from './assets/ideal.jpg';
 
 const images = {
   logo: amazonLogo,
@@ -11,6 +23,18 @@ const images = {
   product6: "https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg",
   loginLogo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png',
   checkout: "https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg",
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  computer,
+  gift,
+  ship,
+  occulus,
+  basics,
+  ideal,
 
 };
 

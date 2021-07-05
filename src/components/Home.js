@@ -1,22 +1,54 @@
 import React from 'react'
-import { Div, ImgWrapper } from './home'
+import { Cardlink, Div, H2, ImgWrapper } from './home'
 // import { Header } from './Header'
 import images from '../global'
 import { Product } from './Product';
+import Carousels from './carousel';
+import { Link } from 'react-router-dom';
+import { Button } from './login';
+
 
 export const Home = () => {
+  
   return (
     <>
       {/* <Header /> */}
       <Div className='home'>
         <Div className="container">
-          <ImgWrapper
-            className="image"
-            src={images.home}
+          {/* <ImgWrapper
+            src={images.img1}
             alt="homepage-image"
-          />
-          <Div className='row'>
-            <Product 
+          /> */}
+          <Carousels />
+          <Div className='row' style={{marginTop:'-26%'}}>
+            <Div className='card'>
+              <H2>Computers & Accessories</H2>
+              <ImgWrapper className='card' src={images.computer} />
+              <Cardlink className='card' to='/shop'>Shop now</Cardlink>
+            </Div>
+
+            <Div className='card'>
+              <H2>Computers & Accessories</H2>
+              <ImgWrapper className='card' src={images.computer} />
+              <Cardlink className='card' to='/shop'>Shop now</Cardlink>
+            </Div>
+
+            <Div className='card'>
+              <H2>Get fit at home</H2>
+              <ImgWrapper className='card' src={images.gift} />
+              <Cardlink className='card' to='/shop'>Explore now</Cardlink>
+            </Div>
+
+            <Div className='card' style={{background:'transparent', padding:'0', marginBottom:'0'}}>
+              <Div className='box'>
+                <H2 style={{width:'80%', marginTop:'0'}}>Sign in for the best experience</H2>
+                <Cardlink to='/login' style={{color:'#111'}}><Button type='submit' className='login' style={{width:'91%', margin:'4%'}} >Sign in securely</Button></Cardlink>
+              </Div>
+              <hr style={{height:'1.5rem', background:'transparent', border:'none'}} />
+                <ImgWrapper className='ship' src={images.ship} />
+            </Div>
+
+            {/* <Product 
               id="12321341"
               title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
               price={11.96}
@@ -29,10 +61,33 @@ export const Home = () => {
               price={239.0}
               rating={4}
               image={images.product2}
-            />
+            /> */}
           </Div>
           <Div className='row'>
-          <Product
+          <Div className='card'>
+              <H2>Oculus</H2>
+              <ImgWrapper className='card' src={images.occulus} />
+              <Cardlink className='card' to='/shop'>Shop now</Cardlink>
+            </Div>
+
+            <Div className='card'>
+              <H2>AmazonBasics</H2>
+              <ImgWrapper className='card' src={images.basics} />
+              <Cardlink className='card' to='/shop'>See more</Cardlink>
+            </Div>
+
+            <Div className='card'>
+              <H2>Gaming accessories</H2>
+              <ImgWrapper className='card' src={images.gift} />
+              <Cardlink className='card' to='/shop'>See more</Cardlink>
+            </Div>
+
+            <Div className='card'>
+              <H2>Find your ideal TV</H2>
+              <ImgWrapper className='card' src={images.ideal} />
+              <Cardlink className='card' to='/shop'>See more</Cardlink>
+            </Div>
+          {/* <Product
             id="4903850"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
             price={199.99}
@@ -52,16 +107,16 @@ export const Home = () => {
             price={598.99}
             rating={4}
             image={images.product5}
-          />
+          /> */}
           </Div>
           <Div className='row'>
-          <Product
+          {/* <Product
             id="90829332"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
             price={1094.98}
             rating={4}
             image={images.product6}
-          />
+          /> */}
           </Div>
         </Div>
       </Div>

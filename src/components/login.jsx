@@ -63,6 +63,7 @@ export const Button = styled.button`
     border: 1px solid;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
   }
   &.register {
     border-radius: 2px;
