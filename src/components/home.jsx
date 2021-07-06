@@ -51,7 +51,7 @@ export const ImgWrapper = styled.img`
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   }
   &.card {
-    width: 85%;
+    width: 88%;
     height: 18rem;
     position: relative;
     margin: auto;
@@ -68,7 +68,7 @@ export const ImgWrapper = styled.img`
 
 export const H2 = styled.h2`
   font-size: 21px;
-  margin-left: 7%;
+  margin-left: 6%;
   margin-top: 6%;
 `;
 

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Route, Switch } from 'react-router'
 import { auth } from '../Firebase'
 import { Checkout } from './Checkout'
+import { Footer } from './Footer'
 import { Header } from './Header'
 import { Home } from './Home'
 import { Login } from './Login'
@@ -36,6 +37,7 @@ export default function Dashboard() {
         <Route path="/" exact component={Home} />
         <Route path="/checkout" exact component={Checkout} />
       </Switch>
+      <Footer />
     </div>
   )
 }

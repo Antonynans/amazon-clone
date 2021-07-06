@@ -41,7 +41,7 @@ export const Home = () => {
 
             <Div className='card' style={{background:'transparent', padding:'0', marginBottom:'0'}}>
               <Div className='box'>
-                <H2 style={{width:'80%', marginTop:'0'}}>Sign in for the best experience</H2>
+                <H2 style={{marginTop:'0'}}>Sign in for the best experience</H2>
                 <Cardlink to='/login' style={{color:'#111'}}><Button type='submit' className='login' style={{width:'91%', margin:'4%'}} >Sign in securely</Button></Cardlink>
               </Div>
               <hr style={{height:'1.5rem', background:'transparent', border:'none'}} />
