@@ -41,3 +41,58 @@ function Item(props) {
       </>
   )
 }
+
+
+// import React from "react";
+// import images from '../global';
+// import { ImgWrapper } from './home';
+
+// import "slick-carousel/slick/slick.css";
+
+// import "slick-carousel/slick/slick-theme.css";
+
+// import Slider from "react-slick";
+
+// export default function App() {
+
+//   var items = [{
+//         src:images.img1
+//       },
+//       {
+//         src: images.img2
+//       },
+//       {
+//         src: images.img3
+//       },
+//       {
+//         src: images.img4
+//       },
+//       {
+//         src: images.img5
+//       },
+//       {
+//         src: images.img6
+//       }];
+    
+
+//       const settings = {
+//         dots: true,
+//         infinite: true,
+//         speed: 500,
+//         slidesToShow: 1,
+//         slidesToScroll: 1
+//       };
+
+//   return (
+
+//     <div className="App">
+
+//       <Slider {...settings}>
+//         {/* <div>{items}</div> */}
+//       </Slider>
+
+//     </div>
+
+//   );
+
+// }

@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import images from '../global'
-import { Div, Footerhead, FooterLink, Paragraph } from './footer'
+import { Div, Footerhead, FooterLink, Paragraph, Span } from './footer'
 import { ImgWrapper } from './header'
+import ScrollArrow from './ScrollToTop'
 
 export const Footer = () => {
   return (
     <>
+      <ScrollArrow />
       <Div className='footer'>
         
         <Div style={{display:'flex', justifyContent:'space-around', width:'80%', height:'%', margin:'auto', marginTop:'%'}}>
@@ -61,7 +63,7 @@ export const Footer = () => {
               <Paragraph className='topFooterText'>English</Paragraph>
             </Div>
             <Div className='footerrow'>
-              <Paragraph className='topFooterText'>$USD - U.S. Dollar</Paragraph>
+              <Paragraph className='topFooterText'>$ USD - U.S. Dollar</Paragraph>
             </Div>
             <Div className='footerrow'>
               <Paragraph className='topFooterText'><span>🇺🇸</span>  United States</Paragraph>
@@ -73,10 +75,129 @@ export const Footer = () => {
       <Div className='bottomFooter'>
         <Div className='bottomDiv'>
           <Div className='bottomRow'>
-            <FooterLink className='head'>Amazon Music</FooterLink>
-            <FooterLink>Stream millions of songs</FooterLink>
+            <FooterLink className='bottomlink'>Amazon Music
+              <Span>Stream millions of songs</Span> </FooterLink>
 
+            <FooterLink className='bottomlink'>Sell on Amazon
+              <Span>Start a Selling Account</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Book Depository
+              <Span>Books With Free Delivery Worldwide</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>IMDb
+              <Span>Movies, TV & Celebrities</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Ring
+              <Span>Smart Home Security Systems</Span> </FooterLink>
           </Div>
+
+          <Div className='bottomRow'>
+            <FooterLink className='bottomlink'>Amazon Music
+              <Span>Stream millions of songs</Span> </FooterLink>
+
+            <FooterLink className='bottomlink'>Sell on Amazon
+              <Span>Start a Selling Account</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Book Depository
+              <Span>Books With Free Delivery Worldwide</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>IMDb
+              <Span>Movies, TV & Celebrities</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Ring
+              <Span>Smart Home Security Systems</Span> </FooterLink>
+          </Div>
+
+          <Div className='bottomRow'>
+            <FooterLink className='bottomlink'>Amazon Music
+              <Span>Stream millions of songs</Span> </FooterLink>
+
+            <FooterLink className='bottomlink'>Sell on Amazon
+              <Span>Start a Selling Account</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Book Depository
+              <Span>Books With Free Delivery Worldwide</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>IMDb
+              <Span>Movies, TV & Celebrities</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Ring
+              <Span>Smart Home Security Systems</Span> </FooterLink>
+          </Div>
+
+          <Div className='bottomRow'>
+            <FooterLink className='bottomlink'>Amazon Music
+              <Span>Stream millions of songs</Span> </FooterLink>
+
+            <FooterLink className='bottomlink'>Sell on Amazon
+              <Span>Start a Selling Account</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Book Depository
+              <Span>Books With Free Delivery Worldwide</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>IMDb
+              <Span>Movies, TV & Celebrities</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Ring
+              <Span>Smart Home Security Systems</Span> </FooterLink>
+          </Div>
+
+          <Div className='bottomRow'>
+            <FooterLink className='bottomlink'>Amazon Music
+              <Span>Stream millions of songs</Span> </FooterLink>
+
+            <FooterLink className='bottomlink'>Sell on Amazon
+              <Span>Start a Selling Account</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Book Depository
+              <Span>Books With Free Delivery Worldwide</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>IMDb
+              <Span>Movies, TV & Celebrities</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Ring
+              <Span>Smart Home Security Systems</Span> </FooterLink>
+          </Div>
+
+          <Div className='bottomRow'>
+            <FooterLink className='bottomlink'>Amazon Music
+              <Span>Stream millions of songs</Span> </FooterLink>
+
+            <FooterLink className='bottomlink'>Sell on Amazon
+              <Span>Start a Selling Account</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Book Depository
+              <Span>Books With Free Delivery Worldwide</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>IMDb
+              <Span>Movies, TV & Celebrities</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Ring
+              <Span>Smart Home Security Systems</Span> </FooterLink>
+          </Div>
+
+          <Div className='bottomRow'>
+            <FooterLink className='bottomlink'>Amazon Music
+              <Span>Stream millions of songs</Span> </FooterLink>
+
+            <FooterLink className='bottomlink'>Sell on Amazon
+              <Span>Start a Selling Account</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Book Depository
+              <Span>Books With Free Delivery Worldwide</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>IMDb
+              <Span>Movies, TV & Celebrities</Span> </FooterLink>
+            
+            <FooterLink className='bottomlink'>Ring
+              <Span>Smart Home Security Systems</Span> </FooterLink>
+          </Div>
+        </Div>
+        <Div style={{display:'flex', width:'40%', justifyContent:'space-around', margin:'auto'}}>
+        <FooterLink className='termslink'>Conditions of Use</FooterLink>
+        <FooterLink className='termslink'>Privacy Notice</FooterLink>
+        <FooterLink className='termslink'>Interest-Based Ads</FooterLink>
+        <Paragraph className='bottom'>© 1996-2021, Amazon.com, Inc. or its affiliates</Paragraph>
         </Div>
       </Div>
     </>

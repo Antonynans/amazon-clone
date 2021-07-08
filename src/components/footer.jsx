@@ -35,17 +35,27 @@ export const Div = styled.div`
   }
   &.bottomFooter {
     background-color: #131A22;
-    height: 25rem;
+    height: 27rem;
     width: 100%;
   }
   &.bottomDiv {
     display: flex;
+    padding: 2% 10%;
+    justify-content: space-around;
+
   }
   &.bottomRow {
     display: flex;
     flex-flow: column;
+    width: 5rem;
+    /* margin: 2% 5%; */
 
   }
+`;
+
+export const Span = styled.span`
+  font-size: 10px;
+  color: #999;
 `;
 
 export const FooterLink = styled(Link)`
@@ -56,6 +66,18 @@ export const FooterLink = styled(Link)`
   &.head {
     font-weight: 700;
     color: #fff;
+  }
+  &.bottomlink {
+    font-size: 12px;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 30%;
+  }
+  &.termslink {
+    font-size: 12px;
+    /* margin: 0 10%; */
+    /* width: 10%; */
+    /* text-align: center; */
   }
 `;
 
@@ -74,5 +96,10 @@ export const Paragraph = styled.p`
     margin: .5rem;
     /* display: flex;
     justify-content: space-around; */
+  }
+  &.bottom {
+    color: #fff;
+    font-size: 12px;
+    /* width: 25%; */
   }
 `;
